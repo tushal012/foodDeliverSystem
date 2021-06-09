@@ -12,9 +12,6 @@ enum FoodCategory{
 }
 
 
-
-
-
 public class FoodItem {
     private static String foodName;
     private FoodType foodType;

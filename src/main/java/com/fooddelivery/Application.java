@@ -18,7 +18,6 @@ public class Application {
         System.out.println("------------Welcome to Food delivery system----------------");
 
 
-/*
         ChickenKadahi chickenKadahi = new ChickenKadahi();
         chickenKadahi.getFoodName();
         chickenKadahi.setFoodType(FoodType.NON_VEG);
@@ -41,9 +40,9 @@ public class Application {
 
         FruitSalad fruitSalad = new FruitSalad();
         FruitSalad.getFoodName();
-     *//*   FruitSalad.setFoodType(FoodType.VEG);
+        FruitSalad.setFoodType(FoodType.VEG);
         FruitSalad.setPrice(250f);
-        FruitSalad.setTaste(Taste.MORE_SPICY);*//*
+        FruitSalad.setTaste(Taste.MORE_SPICY);
 
         Juice juices = new Juice();
         juices.getFoodName();
@@ -62,12 +61,12 @@ public class Application {
 
         foodStore.printValue();
 
-       *//* foodStore.deliver(chickenKadahi);
+        foodStore.deliver(chickenKadahi);
         System.out.println("food items are deliver-----------");
 
-        foodStore.printValue();*//*
+        foodStore.printValue();
 
-        foodStore.createSystemMenu();*/
+        foodStore.createSystemMenu();
 
     }
 }
